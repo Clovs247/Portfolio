@@ -5,19 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index_style.css') }}">
-    <style>
-    @media only screen and (max-width: 600px){
-        /* For mobile phones: */
-        .menu, .main-body, .second-column {
-        width: 100%;
-        }
-    }
-    </style>
     <title>Index</title>
 </head>
 <body>
 
     <header>
+        
         {% block menu %} {% include 'index_menu.html' %} {% endblock menu %}
     </header>
     
@@ -25,11 +18,11 @@
         <div class="main-body">
             <p>Hello Everyone</p>
             <p>My name is David Hausmann. I come from a wide variety of service industry styled jobs and am trying to switch industries into Software Development/Engineering.</p>
-        </div>
-        <div class="second-column">
-            <p>
-                lorem ipsum
-            </p>
+            <div class="second-column">
+                <p>
+                    lorem ipsum
+                </p>
+            </div>
         </div>
 
 
