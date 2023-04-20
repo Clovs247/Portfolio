@@ -24,12 +24,11 @@
 }
 .second-column{
     display: flex;
+    flex-direction: column;
     float: left;
     width: 20%;
     padding: 15px;
     margin-top: 7px;
-    text-align: center;
-    align-content: center;
 }
 
 /* For Desktop: */
