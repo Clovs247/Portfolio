@@ -22,10 +22,16 @@
     padding: 0 20px;
     text-align: center;
 }
+.main-body h2{
+    text-decoration-line: underline;
+}
+.main-body li{
+    list-style: none;
+}
 .second-column{
     display: flex;
     flex-direction: column;
-    float: center;
+    float: left;
     width: 20%;
     padding: 15px;
     margin-top: 7px;

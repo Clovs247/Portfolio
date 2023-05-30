@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/skill_style.css') }}">
+    <title>Jobs/Skills</title>
+</head>
+<body>
+
+    <header>
+        
+        {% block menu %} {% include 'skill_menu.html' %} {% endblock menu %}
+    </header>
+    
+    <main>
+        <div class="main-body">
+            <h2>List of Jobs/Skills</h2>
+            <ul>
+                <li>Server</li>
+                <li>Busser</li>
+                <li>Barback</li>
+                <li>Bartender</li>
+                <li>GAV Stagehand</li>
+                <li>Stage Manager</li>
+                <li>Rigger</li>
+                <li>Carpenter</li>
+                <li>Landscaper</li>
+                <li>Fencer</li>
+                <li>Set Designer</li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="second-column">
+            
+        </div>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
