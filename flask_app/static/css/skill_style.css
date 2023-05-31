@@ -4,11 +4,16 @@
 .menu-header{
     padding: 15px;
     text-align: center;
+    font-weight: 900;
+    border-style: groove;
 }
 .menu{
     float:left;
     width: 20%;
     text-align: center;
+    font-weight: 900;
+    border-style: groove;
+    margin-top: 10px;
 }
 .menu a{
     padding: 8px;
@@ -18,12 +23,15 @@
 }
 .main-body{
     float: left;
-    width: 60%;
+    width: 55%;
     padding: 0 20px;
     text-align: center;
 }
 .main-body h2{
     text-decoration-line: underline;
+}
+.main-body ul{
+    display: flex;
 }
 .main-body li{
     list-style: none;
@@ -32,7 +40,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20%;
+    width: 25%;
     padding: 15px;
     margin-top: 7px;
 }
