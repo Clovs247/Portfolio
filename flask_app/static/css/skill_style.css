@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
+    margin: 1px;
 }
 .menu-header{
     padding: 15px;
@@ -37,6 +37,7 @@
     text-align: center;
     border: 2px solid black;
     margin-top: 7px;
+    margin: 5px;
 }
 .main-body h2{
     font-size: xx-large;
