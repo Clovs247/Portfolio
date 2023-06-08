@@ -11,3 +11,8 @@ def index():
 def skills():
     return render_template("skills.html")
 
+@app.route('/projects')
+def projects():
+    return render_template("projects.html")
+
+
