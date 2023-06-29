@@ -38,6 +38,7 @@
     border: 2px solid black;
     margin-top: 7px;
     margin: 5px;
+    padding-bottom: 7px;
 }
 .main-body h2{
     font-size: xx-large;
@@ -68,6 +69,32 @@
     margin-top: 5px;
     margin-bottom: 5px;
     
+}
+
+
+#splathub{
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#okeefam{
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#hometownlosers{
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.project-title{
+    font-size:larger;
 }
 
 
