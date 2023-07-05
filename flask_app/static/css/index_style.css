@@ -36,6 +36,8 @@
     border: 2px solid black;
     margin-top: 7px;
     margin: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .main-body h2{
     font-size: xx-large;
@@ -53,6 +55,7 @@
     padding: 15px;
     margin: 7px;
     border: 2px solid black;
+    margin-bottom: 50px;
 }
 .second-column h3{
     text-decoration-line: underline;
@@ -67,10 +70,9 @@
 }
 
 #aboutme{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     border: 2px solid black;
-    border-radius: 30%;
+    border-radius: 40%;
 }
 #column{
     display: flex;
@@ -78,7 +80,16 @@
     align-items: center;
 }
 
-
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+}
 
 
 @media only screen and (max-width: 600px){

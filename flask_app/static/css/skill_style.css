@@ -38,6 +38,8 @@
     border: 2px solid black;
     margin-top: 7px;
     margin: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .main-body h2{
     font-size: xx-large;
@@ -57,6 +59,7 @@
     padding: 15px;
     margin: 7px;
     border: 2px solid black;
+    margin-bottom: 50px;
 }
 .second-column h3{
     text-decoration-line: underline;
@@ -67,6 +70,17 @@
 .second-column a{
     margin-top: 5px;
     margin-bottom: 5px;
+    
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
     
 }
 
