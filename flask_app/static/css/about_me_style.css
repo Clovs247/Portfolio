@@ -81,6 +81,14 @@
     
 }
 
+.custom-button-menu{
+    text-decoration-line: none;
+}
+.custom-button-menu:hover{
+    text-decoration-line: none;
+    transform: scale(1.15);
+}
+
 #footer{
     margin: 0px;
     position: fixed;
