@@ -27,11 +27,18 @@
     border-radius: 20%;
     box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.364);
 }
-.menu a{
+.menu-links{
     padding: 8px;
     margin-top: 7px;
     display: block;
     width: 100%;
+}
+.img_link{
+    width: 30px;
+}
+.img_buttons{
+    display: flex;
+    justify-content: space-around;
 }
 .main-body{
     float: left;
@@ -95,6 +102,7 @@
     text-decoration-line: none;
     transform: scale(1.15);
 }
+
 
 #footer{
     margin: 0px;

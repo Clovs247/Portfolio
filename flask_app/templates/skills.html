@@ -17,11 +17,17 @@
     <main>
         <div class="body-container">
             <div class="menu">
-                <a href="/" class="custom-button-menu" id="homelink">Home</a>
-                <a href="/projects" class="custom-button-menu">Projects</a>
-                <a href="/skills" class="custom-button-menu">Jobs/Skills</a>
-                <a href="https://www.linkedin.com/in/david-hausmann-b2637aa4/" class="custom-button-menu">LinkedIn</a>
-                <a href="https://github.com/Clovs247" class="custom-button-menu">GitHub</a>
+                <a href="/" class="custom-button-menu menu-links">Home</a>
+                <a href="/projects" class="custom-button-menu menu-links">Projects</a>
+                <a href="/skills" class="custom-button-menu menu-links">Jobs/Skills</a>
+                <div class="img_buttons">
+                    <a href="https://www.linkedin.com/in/david-hausmann-b2637aa4/" class="custom-button-menu">
+                        <img src="{{ url_for('static', filename='img/LinkedIn_logo_initials.png') }}" alt="LinkedIn Logo" class="img_link">
+                    </a>
+                    <a href="https://github.com/Clovs247" class="custom-button-menu">
+                        <img src="{{ url_for('static', filename='img/GitHub_Logo.png') }}" alt="GitHub Logo" class="img_link">
+                    </a>
+                </div>
             </div>
             <div class="main-body">
                 <h2>List of Jobs/Skills</h2>
