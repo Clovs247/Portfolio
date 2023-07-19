@@ -33,7 +33,11 @@
             <div class="main-body">
                 <div id="column">
                     <img src="{{ url_for('static',filename='img/DavidHausmannProfilePic.JPG') }}" alt="David Hausmann's Profile Picture" id="profilePic">
-                    <a href="/about_me" class="custom-button-menu" id="aboutme">About Me</a>
+                    <button type="button" class="abt-me-btn">About Me</button>
+                    <div class="abt-me-collapsable">
+                        <p>I come from a wide variety of service industry styled jobs and am trying to switch industries into Software Development/Engineering.</p>
+                        <p>I'm an extremely hard working employee on any job I've been given.</p>
+                    </div>
                 </div>
             </div>
             <div class="second-column">
@@ -52,5 +56,8 @@
             <p>Contact: davidhausmann42@gmail.com</p>
         </div>
     </footer>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/index_script.js')}}"></script>
+
 </body>
 </html>

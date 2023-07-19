@@ -15,6 +15,4 @@ def skills():
 def projects():
     return render_template("projects.html")
 
-@app.route('/about_me')
-def about_me():
-    return render_template("about_me.html")
+
