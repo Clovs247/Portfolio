@@ -134,6 +134,7 @@
 .custom-button-menu:hover{
     text-decoration-line: none;
     transform: scale(1.15);
+    transition: 1s;
 }
 
 #footer{
